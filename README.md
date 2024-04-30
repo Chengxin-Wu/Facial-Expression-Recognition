@@ -16,7 +16,12 @@ Ensure that you have a compatible version of TensorFlow for TensorFlow 1.x funct
 ## How to run our code
 - Download dataset from Kaggle link below
 - Change data dir to your own
-- Run different file and get results
+- Run different files and get results
+- For camera_test.py, use
+```python
+python camera_test.py
+~~~
+
 ## Dataset
 Dataset website: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data.
 
