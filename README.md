@@ -40,6 +40,10 @@ classify facial expressions more accurately.
 
 Local Attention Layer and Global Feature Attention Layer perform roughly the same tasks, but for different reasons. Calculatinng the correlation between local features and the query vector helps the model focus on important local areas in an image, while calculating the correlation between hidden states and the query vector helps the model focus on critical moments or historical information in time series data. The difference between them lies in the focus: one targets local features in images, while the other targets hidden states in time series data.
 
+Test Model
+<img width="564" alt="Screenshot 2024-04-30 at 5 00 45 PM" src="https://github.com/Chengxin-Wu/Facial-Expression-Recognition/assets/112346517/ba36df35-bfc4-4dfb-913b-3beba0085d35">
+
+
 ## Camera Test
 The method adopted involves using a camera to recognize facial micro-expressions in real-time. The specific process is as follows: use OpenCV's built-in face detector, capture facial images using the system camera, preprocess the facial images, input the processed images into the model, and finally display the results analyzed by the model in the running window. 
 
