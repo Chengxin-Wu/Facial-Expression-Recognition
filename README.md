@@ -2,6 +2,7 @@
 This project contains a convolutional neural network (CNN) for recognizing emotions from facial expressions. The model is built using TensorFlow 1.x and is designed to classify images into one of seven emotion categories: angry, disgusted, fearful, happy, sad, surprised, and neutral.
 ## Group member
 Chengxin Wu NetID: CW1171
+
 Yuanhao Jiang NetID: YJ270
 ## Prerequisites
 Before running this project, you will need the following:
