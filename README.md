@@ -4,6 +4,7 @@ This project contains a convolutional neural network (CNN) for recognizing emoti
 Before running this project, you will need the following:
 
 -Python 3.x
+
 -TensorFlow 1.x
 -NumPy
 -OpenCV
