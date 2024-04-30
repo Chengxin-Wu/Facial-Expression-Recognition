@@ -13,6 +13,10 @@ Before running this project, you will need the following:
 - OpenCV
 
 Ensure that you have a compatible version of TensorFlow for TensorFlow 1.x functionalities.
+## How to run our code
+- Download dataset from Kaggle link below
+- Change data dir to your own
+- Run different file and get results
 ## Dataset
 Dataset website: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data.
 
@@ -57,4 +61,8 @@ The method adopted involves using a camera to recognize facial micro-expressions
 
 The results is as follows: 
 ![image](https://github.com/Chengxin-Wu/Facial-Expression-Recognition/assets/48239248/9799d50e-2b1b-4a44-bdac-276fd8175863)
+## Slide link
+https://docs.google.com/presentation/d/1eOU_f3yD8aZDESqQQU7q_8-ZDfPiVXbNaoAtc-vJmW0/edit#slide=id.p1
+## Summary of work we did
+- 
 
