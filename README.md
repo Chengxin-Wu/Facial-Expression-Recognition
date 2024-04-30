@@ -13,10 +13,11 @@ Before running this project, you will need the following:
 
 Ensure that you have a compatible version of TensorFlow for TensorFlow 1.x functionalities.
 ## Dataset
-Dataset website:https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
-
-We chose the widely used dataset: the FER-2013 dataset. It features over 35 thousand images of human faces, and each image within the dataset is 48 by 48 pixels, presented in grayscale. Also, the dataset categorizes emotions into 7 distinct labels: They are anger, disgust, fear, happiness, sadness, surprise and neutrality. To ensure our data is ready for training, we implemented some preprocess techniques. First we know that Each entry in the 'pixels' column of our dataset is a string of pixel values, which represent a face. We split these strings into individual pixel values and convert them to integers. Then, we reshape this list of pixels into a two-dimensional 48 by 48 pixel array. After reshaping the images,we add a channel dimension to the data. Even though our images are grayscale and only need one channel, most deep learning frameworks require data to be in the form of samples, height, width, and channels. We expand our data to fit this requirement, ensuring compatibility with convolutional neural network architectures. Lastly, we convert the emotion labels to the one-hot encoding format, which is helpful for our classification work.
+Dataset website: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data.
+It features over 35 thousand images of human faces, and each image within the dataset is 48 by 48 pixels, presented in grayscale. Also, the dataset categorizes emotions into 7 distinct labels: They are anger, disgust, fear, happiness, sadness, surprise and neutrality. 
 ## DNN
+The idea of our DNN model comes from this article: https://www.cnblogs.com/XDU-Lakers/p/10587894.html
+
 
 
 ## ACNN-ALSTM
