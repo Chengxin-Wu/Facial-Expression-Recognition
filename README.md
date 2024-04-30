@@ -11,6 +11,7 @@ Before running this project, you will need the following:
 Ensure that you have a compatible version of TensorFlow for TensorFlow 1.x functionalities.
 ## Dataset
 Dataset website: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data.
+
 It features over 35 thousand images of human faces, and each image within the dataset is 48 by 48 pixels, presented in grayscale. Also, the dataset categorizes emotions into 7 distinct labels: They are anger, disgust, fear, happiness, sadness, surprise and neutrality. 
 ## DNN
 We chose the DNN model from this article: https://www.cnblogs.com/XDU-Lakers/p/10587894.html as a comprision of our model.
@@ -38,3 +39,10 @@ features that best represent facial expressions. This helps the model to recogni
 classify facial expressions more accurately.
 
 Local Attention Layer and Global Feature Attention Layer perform roughly the same tasks, but for different reasons. Calculatinng the correlation between local features and the query vector helps the model focus on important local areas in an image, while calculating the correlation between hidden states and the query vector helps the model focus on critical moments or historical information in time series data. The difference between them lies in the focus: one targets local features in images, while the other targets hidden states in time series data.
+
+## Camera Test
+The method adopted involves using a camera to recognize facial micro-expressions in real-time. The specific process is as follows: use OpenCV's built-in face detector, capture facial images using the system camera, preprocess the facial images, input the processed images into the model, and finally display the results analyzed by the model in the running window. 
+
+The results is as follows: 
+![image](https://github.com/Chengxin-Wu/Facial-Expression-Recognition/assets/48239248/9799d50e-2b1b-4a44-bdac-276fd8175863)
+
