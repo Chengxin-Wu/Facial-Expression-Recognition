@@ -6,6 +6,9 @@ Before running this project, you will need the following:
 -Python 3.x
 
 -TensorFlow 1.x
+
 -NumPy
+
 -OpenCV
+
 Ensure that you have a compatible version of TensorFlow for TensorFlow 1.x functionalities.
