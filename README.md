@@ -1,5 +1,8 @@
 # Facial-Expression-Recognition
 This project contains a convolutional neural network (CNN) for recognizing emotions from facial expressions. The model is built using TensorFlow 1.x and is designed to classify images into one of seven emotion categories: angry, disgusted, fearful, happy, sad, surprised, and neutral.
+## Group member
+Chengxin Wu NetID: CW1171
+Yuanhao Jiang NetID: YJ270
 ## Prerequisites
 Before running this project, you will need the following:
 
@@ -23,6 +26,8 @@ The DNN architecture consists of the following layers:
 - **Fully Connected Layer 1**: A dense layer with 384 units, followed by ReLU activation.
 - **Fully Connected Layer 2**: Another dense layer with 192 units.
 - **Output Layer**: A linear layer with 7 units corresponding to the emotion categories.
+
+Since the code structure is too old, we reconstructed it and make a more advanced structure. And the 
 
 
 
