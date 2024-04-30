@@ -4,11 +4,8 @@ This project contains a convolutional neural network (CNN) for recognizing emoti
 Before running this project, you will need the following:
 
 - Python 3.x
-
 - TensorFlow 1.x
-
 - NumPy
-
 - OpenCV
 
 Ensure that you have a compatible version of TensorFlow for TensorFlow 1.x functionalities.
@@ -19,12 +16,12 @@ It features over 35 thousand images of human faces, and each image within the da
 We chose the DNN model from this article: https://www.cnblogs.com/XDU-Lakers/p/10587894.html as a comprision of our model.
 The DNN architecture consists of the following layers:
 
-- ###Input Layer: The input images are reshaped to 48x48 pixels with a single color channel (grayscale).
-First Convolutional Layer: Consists of 64 filters of size 5x5, followed by ReLU activation and a max pooling operation. Local response normalization is applied post-pooling.
-Second Convolutional Layer: Utilizes 64 filters of size 3x3, followed by ReLU activation. Local response normalization and another max pooling step follow.
-Fully Connected Layer 1: A dense layer with 384 units, followed by ReLU activation.
-Fully Connected Layer 2: Another dense layer with 192 units.
-Output Layer: A linear layer with 7 units corresponding to the emotion categories.
+- **Input Layer**: The input images are reshaped to 48x48 pixels with a single color channel (grayscale).
+- **First Convolutional Layer**: Consists of 64 filters of size 5x5, followed by ReLU activation and a max pooling operation. Local response normalization is applied post-pooling.
+- **Second Convolutional Layer**: Utilizes 64 filters of size 3x3, followed by ReLU activation. Local response normalization and another max pooling step follow.
+- **Fully Connected Layer 1**: A dense layer with 384 units, followed by ReLU activation.
+- **Fully Connected Layer 2**: Another dense layer with 192 units.
+- **Output Layer**: A linear layer with 7 units corresponding to the emotion categories.
 
 
 
