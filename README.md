@@ -12,7 +12,7 @@ Ensure that you have a compatible version of TensorFlow for TensorFlow 1.x funct
 ## Dataset
 Dataset website: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data.
 
-It features over 35 thousand images of human faces, and each image within the dataset is 48 by 48 pixels, presented in grayscale. Also, the dataset categorizes emotions into 7 distinct labels: They are anger, disgust, fear, happiness, sadness, surprise and neutrality. 
+It features over 35 thousand pixels of human faces, and each image within the dataset is 48 by 48 pixels, presented in grayscale. Also, the dataset categorizes emotions into 7 distinct labels: They are anger, disgust, fear, happiness, sadness, surprise and neutrality. 
 ## DNN
 We chose the DNN model from this article: https://www.cnblogs.com/XDU-Lakers/p/10587894.html as a comprision of our model.
 The DNN architecture consists of the following layers:
