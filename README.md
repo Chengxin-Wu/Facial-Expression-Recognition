@@ -69,5 +69,4 @@ The results is as follows:
 ## Slide link
 https://docs.google.com/presentation/d/1eOU_f3yD8aZDESqQQU7q_8-ZDfPiVXbNaoAtc-vJmW0/edit#slide=id.p1
 ## Summary of work we did
-- 
-
+- We reconstructed the DNN model and added the test part.
