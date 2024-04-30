@@ -20,7 +20,7 @@ Ensure that you have a compatible version of TensorFlow for TensorFlow 1.x funct
 - For camera_test.py, use
 ```python
 python camera_test.py
-~~~
+```
 
 ## Dataset
 Dataset website: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data.
