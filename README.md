@@ -70,7 +70,7 @@ The results is as follows:
 https://docs.google.com/presentation/d/1eOU_f3yD8aZDESqQQU7q_8-ZDfPiVXbNaoAtc-vJmW0/edit#slide=id.p1
 
 ## Additional Work After Presentation
-- Improved the model by adding activation functions and regularization to alleviate model overfitting, but due to the lack of significant improvement, these were not included in the final submitted model.
+- Improved the model by adding activation functions and regularization to enhance the performance and generalization ability, but due to the lack of significant improvement, these were not included in the final submitted model.
 - Try different LSTM model parameters to observe their impact on the model.
 - Use more data to evaluate the model's performance
 
