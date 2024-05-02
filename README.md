@@ -68,5 +68,13 @@ The results is as follows:
 ![image](https://github.com/Chengxin-Wu/Facial-Expression-Recognition/assets/48239248/9799d50e-2b1b-4a44-bdac-276fd8175863)
 ## Slide link
 https://docs.google.com/presentation/d/1eOU_f3yD8aZDESqQQU7q_8-ZDfPiVXbNaoAtc-vJmW0/edit#slide=id.p1
+
+## Additional Work After Presentation
+- Improved the model by adding activation functions and regularization to alleviate model overfitting, but due to the lack of significant improvement, these were not included in the final submitted model.
+- Try different LSTM model parameters to observe their impact on the model.
+- Use more data to evaluate the model's performance
+
 ## Summary of work we did
 - We reconstructed the DNN model and added the test part.
+- Build the ACC-ALSTM model based on the description of its architecture in the article, while also constructing the CNN-ALSTM and CNN-LSTM models for comparison.
+- Choose an appropriate loss function, optimizer, batch size, learning rate, and other hyperparameters to train the model
