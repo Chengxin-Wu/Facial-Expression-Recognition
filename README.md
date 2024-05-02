@@ -78,3 +78,4 @@ https://docs.google.com/presentation/d/1eOU_f3yD8aZDESqQQU7q_8-ZDfPiVXbNaoAtc-vJ
 - We reconstructed the DNN model and added the test part.
 - Build the ACC-ALSTM model based on the description of its architecture in the article, while also constructing the CNN-ALSTM and CNN-LSTM models for comparison.
 - Choose an appropriate loss function, optimizer, batch size, learning rate, and other hyperparameters to train the model
+- Use our model for the video recording function on phones or computers to recognize the facial expressions of people appearing on camera
